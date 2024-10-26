@@ -1,0 +1,30 @@
+Started by user Folashade Banire
+Started by user Folashade Banire
+Running as SYSTEM
+Building in workspace C:\ProgramData\Jenkins\.jenkins\workspace\To-Do App
+The recommended git tool is: NONE
+No credentials specified
+ > git.exe rev-parse --resolve-git-dir C:\ProgramData\Jenkins\.jenkins\workspace\To-Do App\.git # timeout=10
+Fetching changes from the remote Git repository
+ > git.exe config remote.origin.url https://github.com/Fola-Git/simple-todo-app.git # timeout=10
+Fetching upstream changes from https://github.com/Fola-Git/simple-todo-app.git
+ > git.exe --version # timeout=10
+ > git --version # 'git version 2.29.2.windows.2'
+ > git.exe fetch --tags --force --progress -- https://github.com/Fola-Git/simple-todo-app.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/main^{commit}" # timeout=10
+Checking out Revision ffb438375f8ec879ca9b1187794c8f686c4428a4 (refs/remotes/origin/main)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f ffb438375f8ec879ca9b1187794c8f686c4428a4 # timeout=10
+Commit message: "Update style.css"
+ > git.exe rev-list --no-walk ffb438375f8ec879ca9b1187794c8f686c4428a4 # timeout=10
+[To-Do App] $ cmd /c call C:\Windows\TEMP\jenkins552631080837799286.bat
+
+C:\ProgramData\Jenkins\.jenkins\workspace\To-Do App>echo Installing dependencies... 
+Installing dependencies...
+
+C:\ProgramData\Jenkins\.jenkins\workspace\To-Do App>echo Building the app... 
+Building the app...
+
+C:\ProgramData\Jenkins\.jenkins\workspace\To-Do App>exit 0 
+Archiving artifacts
+Finished: SUCCESS
