@@ -1,6 +1,6 @@
 # Jenkins Project
 
-This project shows how to use a tool called Jenkins. Jenkins is a tool that helps us automatically build and test our software projects, making it easier to manage our code and share it with others.
+This project shows how to use a tool called Jenkins. Jenkins is a CI/CD tool that helps to automatically build and test our software projects, making it easier to manage code and share with others.
 
 ## Steps to Follow
 
